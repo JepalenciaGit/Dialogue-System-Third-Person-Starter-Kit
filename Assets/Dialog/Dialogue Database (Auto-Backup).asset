@@ -38,7 +38,7 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Name
-      value: Player
+      value: Sir Pendleton II
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -61,6 +61,28 @@ MonoBehaviour:
       value: 0
       type: 1
       typeString: CustomFieldType_Number
+    portrait: {fileID: 0}
+    spritePortrait: {fileID: 0}
+    alternatePortraits: []
+    spritePortraits: []
+  - id: 10
+    fields:
+    - title: Name
+      value: Concerned Civilian
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: Generic civilian NPCs of Skymoore
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
     spritePortrait: {fileID: 0}
     alternatePortraits: []
@@ -90,7 +112,7 @@ MonoBehaviour:
   - id: 2
     fields:
     - title: Name
-      value: Brooke
+      value: 'Brooke '
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -112,7 +134,7 @@ MonoBehaviour:
   - id: 3
     fields:
     - title: Name
-      value: Wilfred
+      value: Army Recruiter Wilfred
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -134,7 +156,7 @@ MonoBehaviour:
   - id: 4
     fields:
     - title: Name
-      value: Edlyn
+      value: Edlyn the Knightess
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -156,7 +178,7 @@ MonoBehaviour:
   - id: 5
     fields:
     - title: Name
-      value: Dena
+      value: Dena the Huntress
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -178,7 +200,7 @@ MonoBehaviour:
   - id: 6
     fields:
     - title: Name
-      value: Edrea
+      value: Edrea the Huntress
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -200,7 +222,7 @@ MonoBehaviour:
   - id: 7
     fields:
     - title: Name
-      value: Scarlett
+      value: Master Artisan Scarlett
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -209,6 +231,28 @@ MonoBehaviour:
       typeString: CustomFieldType_Files
     - title: Description
       value: Artisan Craftsperson
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    portrait: {fileID: 0}
+    spritePortrait: {fileID: 0}
+    alternatePortraits: []
+    spritePortraits: []
+  - id: 9
+    fields:
+    - title: Name
+      value: King Hogarthe
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: The True High King of Skymoore
       type: 0
       typeString: CustomFieldType_Text
     - title: IsPlayer
@@ -1228,7 +1272,7 @@ MonoBehaviour:
   - id: 4
     fields:
     - title: Title
-      value: TraineeRumorBarks
+      value: SoldierRumorBarks
       type: 0
       typeString: 
     - title: Pictures

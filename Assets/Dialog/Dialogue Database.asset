@@ -38,7 +38,7 @@ MonoBehaviour:
   - id: 1
     fields:
     - title: Name
-      value: Player
+      value: Sir Pendleton II
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -61,6 +61,28 @@ MonoBehaviour:
       value: 0
       type: 1
       typeString: CustomFieldType_Number
+    portrait: {fileID: 0}
+    spritePortrait: {fileID: 0}
+    alternatePortraits: []
+    spritePortraits: []
+  - id: 10
+    fields:
+    - title: Name
+      value: Concerned Civilian
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: Generic civilian NPCs of Skymoore
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
     portrait: {fileID: 0}
     spritePortrait: {fileID: 0}
     alternatePortraits: []
@@ -90,7 +112,7 @@ MonoBehaviour:
   - id: 2
     fields:
     - title: Name
-      value: Brooke
+      value: Brooke the Stablekeep
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -98,7 +120,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: The Stablekeep's Daughter
+      value: Stablekeeper (Wilfred's Daughter)
       type: 0
       typeString: CustomFieldType_Text
     - title: IsPlayer
@@ -112,7 +134,7 @@ MonoBehaviour:
   - id: 3
     fields:
     - title: Name
-      value: Wilfred
+      value: Wilfred the Army Recruiter
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -120,7 +142,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: The Stablekeeper
+      value: Army Recruiter of the Skymoore Army ( Brooke's Father)
       type: 0
       typeString: CustomFieldType_Text
     - title: IsPlayer
@@ -134,7 +156,7 @@ MonoBehaviour:
   - id: 4
     fields:
     - title: Name
-      value: Edlyn
+      value: Edlyn the Knightess
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -142,7 +164,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: A Knightess
+      value: A Knightess part of the Skymoore Warrior Association
       type: 0
       typeString: CustomFieldType_Text
     - title: IsPlayer
@@ -156,7 +178,7 @@ MonoBehaviour:
   - id: 5
     fields:
     - title: Name
-      value: Dena
+      value: Dena the Huntress
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -164,7 +186,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Archer (Younger sister of Edrea)
+      value: Huntress and Shopkeeper (Younger sister of Edrea)
       type: 0
       typeString: CustomFieldType_Text
     - title: IsPlayer
@@ -178,7 +200,7 @@ MonoBehaviour:
   - id: 6
     fields:
     - title: Name
-      value: Edrea
+      value: Edrea the Huntress
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -186,7 +208,7 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Archer (Older sister of Dena)
+      value: Huntress and Shopkeeper (Older sister of Dena)
       type: 0
       typeString: CustomFieldType_Text
     - title: IsPlayer
@@ -200,7 +222,7 @@ MonoBehaviour:
   - id: 7
     fields:
     - title: Name
-      value: Scarlett
+      value: Master Artisan Scarlett
       type: 0
       typeString: CustomFieldType_Text
     - title: Pictures
@@ -208,7 +230,51 @@ MonoBehaviour:
       type: 3
       typeString: CustomFieldType_Files
     - title: Description
-      value: Artisan Craftsperson
+      value: Master Artisan and Leader of Blacksmithing Guild
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    portrait: {fileID: 0}
+    spritePortrait: {fileID: 0}
+    alternatePortraits: []
+    spritePortraits: []
+  - id: 9
+    fields:
+    - title: Name
+      value: King Hogarthe
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: The True High King of Skymoore
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: IsPlayer
+      value: False
+      type: 2
+      typeString: CustomFieldType_Boolean
+    portrait: {fileID: 0}
+    spritePortrait: {fileID: 0}
+    alternatePortraits: []
+    spritePortraits: []
+  - id: 11
+    fields:
+    - title: Name
+      value: Elton the Shopkeeper
+      type: 0
+      typeString: CustomFieldType_Text
+    - title: Pictures
+      value: '[]'
+      type: 3
+      typeString: CustomFieldType_Files
+    - title: Description
+      value: The General Shopkeeper of Underwood's General Goods
       type: 0
       typeString: CustomFieldType_Text
     - title: IsPlayer
